@@ -1,0 +1,13 @@
+{
+  "name": "vrp-javascript-boilerplate",
+  "version": "1.0.1",
+  "description": "VRP Javascript Boilerplate using @vrpjs",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Dione B",
+  "license": "MIT",
+  "dependencies": {
+    "@vrpjs/client": "^1.0.4",
+    "@vrpjs/server": "^1.0.4"
+  }
+}
