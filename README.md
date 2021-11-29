@@ -1,6 +1,6 @@
 <h1 align="center">
 
-![Banner](https://raw.githubusercontent.com/Santagain/vrp-js-boilerplate/main/logo.png)
+![Banner](https://raw.githubusercontent.com/Santagain/vrp-js-boilerplate/main/banner.png)
 
 </h1>
 
