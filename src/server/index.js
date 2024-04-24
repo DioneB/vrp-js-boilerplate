@@ -7,10 +7,10 @@ let Self = {};
 VrpTunnel.bindInterface("vrp-js-boilerplate", Self);
 const ClientSide = VrpTunnel.getInterface("vrp-js-boilerplate");
 
-Self.SendValue = (money) => {
+Self.SendValue = (amount) => {
   let src = source;
   let user_id = vRP.getUserId(src);
-  vRP.giveBankMoney(user_id, money);
-  ClientSide._customNotify(src, "Command OK");
-  return "money added";
+  let message = "Command OK ->"..user_id
+  ClientSide._customNotify(src, message);
+  return "received "..amount.." from Client";
 };
