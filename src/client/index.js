@@ -9,7 +9,7 @@ const ServerSide = VrpTunnel.getInterface("vrp-js-boilerplate");
 
 RegisterCommand("teste", async () => {
   console.log("Calling");
-  let res = await ServerSide.AddMoney(5000);
+  let res = await ServerSide.SendValue(5000);
   console.log("Finished: ", res);
 });
 
